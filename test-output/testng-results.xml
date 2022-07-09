@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31738" started-at="2022-05-27T08:21:24Z" finished-at="2022-05-27T08:21:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31738" started-at="2022-05-27T08:21:24Z" finished-at="2022-05-27T08:21:56Z">
+      <class name="com.sam.Parasuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="before" is-config="true" duration-ms="30185" started-at="2022-05-27T08:21:24Z" finished-at="2022-05-27T08:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-05-27T08:21:54Z" finished-at="2022-05-27T08:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="test" duration-ms="478" started-at="2022-05-27T08:21:54Z" finished-at="2022-05-27T08:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-05-27T08:21:55Z" finished-at="2022-05-27T08:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-05-27T08:21:55Z" finished-at="2022-05-27T08:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="test1" duration-ms="134" started-at="2022-05-27T08:21:55Z" finished-at="2022-05-27T08:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-05-27T08:21:55Z" finished-at="2022-05-27T08:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.sam.Parasuite@3bfdc050]" name="afterclass" is-config="true" duration-ms="848" started-at="2022-05-27T08:21:55Z" finished-at="2022-05-27T08:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.sam.Parasuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
